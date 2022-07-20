@@ -1,0 +1,47 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@400;500&display=swap');
+
+/* common style r utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-part {
+    display: flex;
+    color: white;
+    margin: 20px auto;
+    background-color: black;
+    padding: 50px;
+    border-radius: 20px;
+    width: 992px;
+
+
+}
+
+.header-info {
+
+    width: 550px;
+    height: 424px;
+
+    margin-left: 30px;
+}
+
+.watch-button {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 16px;
+
+}
+
+.fa-greater-than {
+    margin-left: 10px;
+}
+
+.header-banner-pic {
+    /* width: 581px;
+    height: 613px; */
+
+    margin-left: 24px;
+}
