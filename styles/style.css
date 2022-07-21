@@ -212,10 +212,25 @@ main {
 
 }
 
+/* ---view button for tablet view -----*/
+.view-all a {
+
+    text-decoration: none;
+    color: white;
+    background-color: white;
+    margin-left: 700px;
+    padding: 10px 20px;
+}
+
 footer {
+
     color: white;
     background-color: black;
     text-align: center;
+}
+
+footer .goal {
+    padding: 50px;
 }
 
 ul {
@@ -317,6 +332,20 @@ ul a {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-all {
+        width: 100%;
+
+    }
+
+    /*------ view button for tablet------- */
+
+    .view-all a {
+        color: white;
+        background-color: red;
+        margin-left: 350px;
+        padding: 10px 20px;
     }
 
     .list-class {
