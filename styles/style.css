@@ -114,6 +114,50 @@ main {
     margin-top: 50px;
 }
 
+/* -----For upcoming match------ */
+
+.upcoming2 a {
+    text-decoration: none;
+    color: wheat;
+    background-color: red;
+    padding: 17px 70px;
+    border-radius: 10px;
+    border: 2px solid gray;
+
+}
+
+.upcoming2 {
+    margin-bottom: 50px;
+
+}
+
+.groups2 a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 17px 79px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.group2 {
+    margin-top: 50px;
+}
+
+
+.blog2 a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 17px 79px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.blog2 {
+    margin-top: 50px;
+}
+
 /* --------players class------ */
 .players {
     display: grid;
@@ -128,6 +172,8 @@ main {
     border: 2px solid gray;
     border-radius: 12px;
 }
+
+/* -------upcoming match players class------ */
 
 .players-next {
     display: grid;
@@ -218,6 +264,8 @@ ul a {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* -------upcoming match players class------ */
+
     .players-next {
 
         display: grid;
@@ -262,6 +310,8 @@ ul a {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* -------upcoming match players class------ */
 
     .players-next {
 
