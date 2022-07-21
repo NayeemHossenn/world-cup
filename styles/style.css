@@ -114,6 +114,7 @@ main {
     margin-top: 50px;
 }
 
+/* --------players class------ */
 .players {
     display: grid;
     grid-row-gap: 20px;
@@ -127,6 +128,21 @@ main {
     border: 2px solid gray;
     border-radius: 12px;
 }
+
+.players-next {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player-next {
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
 
 .players-image a {
     text-decoration: none;
@@ -202,6 +218,12 @@ ul a {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .players-next {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .list-class {
 
         display: grid;
@@ -236,6 +258,12 @@ ul a {
     }
 
     .players {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .players-next {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
